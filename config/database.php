@@ -42,7 +42,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'localhost'),
             'port'      => '33060',//your mysql port,
             'database' => env('DB_DATABASE', 'dms'),
             'username' => env('DB_USERNAME', 'root'),

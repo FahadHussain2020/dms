@@ -1,5 +1,5 @@
 <?php
-namespace App;
+namespace App\Providers;
 use App\Classmodel; // write model name here
 use Illuminate\Support\ServiceProvider;
 class DynamicClassname extends ServiceProvider
